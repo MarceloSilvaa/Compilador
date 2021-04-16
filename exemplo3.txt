@@ -1,0 +1,9 @@
+fn main() {
+#Quantas vezes imprimir a string "O nosso primeiro compilador a funcionar."
+let a = 0;
+read_line(&a);
+while a>0 {
+	println!("O nosso primeiro compilador a funcionar.");
+	let a = a - 1;
+}
+}

@@ -1,0 +1,15 @@
+fn main() {
+#Expressoes
+let a = 1;
+let b = 2;
+let expressao = 3*b+1+a;
+println!("%d",expressao);
+
+#Somar 2 numeros lidos do stdin
+let c=0;
+let d=0;
+read_line(&c);
+read_line(&d);
+let soma=c+d;
+println!("Soma: %d",soma);
+}

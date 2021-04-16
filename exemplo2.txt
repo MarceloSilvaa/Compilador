@@ -1,0 +1,18 @@
+fn main() {
+#Ver qual o maximo entre dois numeros lidos do stdin
+let a=0;
+let b=0;
+read_line(&a);
+read_line(&b);
+if (a>b) {
+	println!("O primeiro e maior que o segundo.");
+}
+if (a < b) {
+	println!("O segundo e maior que o primeiro.");
+}
+else {
+	if a==b {
+		println!("Sao iguais.");
+	}
+}
+}
